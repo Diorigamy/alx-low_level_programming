@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * get_bit - func that gets the value of a bit at a given index
- * @n: the integer 
+ * @n: the integer
  * @index: the index we are valueing
  * Return: value of bit
  */
@@ -13,6 +13,6 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		return (-1);
 	}
-	mask = 1ul << index; 
+	mask = 1ul << index;
 	return ((n & mask) != 0);
 }
