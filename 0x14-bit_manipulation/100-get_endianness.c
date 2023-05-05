@@ -7,13 +7,14 @@ int get_endianness(void)
 {
 	/*set the (LSB), 00000001(low order)*/
 	unsigned int m = 1;
-	char *b = (char *) &m; 
+	char *b = (char *) &m;
+
 	if (*b)
 	{
-		return (1); 
+		return (1);
 	}
 	else
 	{
-		return (0); 
+		return (0);
 	}
 }
