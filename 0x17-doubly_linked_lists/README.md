@@ -1,0 +1,1 @@
+make a node accessible twice by linking them in the forward and backward direction , to improve on time factor
