@@ -1,0 +1,1 @@
+dynamic libraries and static ones , the creationn and use 
